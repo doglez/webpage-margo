@@ -8,6 +8,12 @@
   padding-top: 20px;
   padding-bottom: 15px;
 }
-.text-color-dropmenu{
-  color: white;
+#dropdown1{
+  background-color: #e53935;
+}
+.submenu{
+  color: white !important;
+}
+.security-policy p{
+  text-align: justify;
 }
