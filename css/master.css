@@ -1,3 +1,6 @@
+html {
+  
+}
 .logotipo{
   width: 80px;
   margin-top: 7px;
@@ -26,7 +29,8 @@
   width: 100%;
 }
 .slogan{
-  color: #464646;
+  color: #3F100F;
+  font-family: 'Shrikhand', cursive;
 }
 .bgfinanzas{
   background-image: url(../img/bgfinanzas.jpg);
