@@ -29,7 +29,7 @@
       </ul>
       <nav class="red darken-1">
         <div class="nav-wrapper container">
-          <a href="index.html" class="brand-logo"><img class="logotipo" src="img/logo3.png" alt="MARGO"> </a>
+          <a href="index.html" class="brand-logo"><img class="logotipo" src="img/logo_white.png" alt="MARGO"> </a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li class="active"><a href="index.html"><i class="material-icons left">home</i>Inicio</a></li>
@@ -41,7 +41,7 @@
       </nav>
     </div>
     <ul class="side-nav" id="mobile-demo">
-            <li><img class="logotipo2" src="img/logo grande (nombre).png" alt="MARGO"> </li>
+            <li><img class="logotipo2" src="img/logo_normal_sidenavbar.png" alt="MARGO"> </li>
             <li class="active"><a href="index.html"><i class="material-icons left">home</i>Inicio</a></li>
             <li class="disable"><a href="#!"><i class="material-icons left">business_center</i>Servicios</a></li>
             <li><div class="divider"></div></li>
@@ -54,23 +54,14 @@
   </header>
 
   <main>
-    <div class="carousel carousel-slider center" data-indicators="true">
-      <div class="carousel-fixed-item center">
-        <a class="btn waves-effect white grey-text darken-text-2">button</a>
+     <div class="full-silder">
+      <div class="carousel carousel-slider" data-indicators="true">
+        <a href="#one!" class="carousel-item"><img src="img/bgfinanzas.jpg"></a>
+        <a href="#two!" class="carousel-item"><img src="img/bgdevelopment.jpg"></a>
+        <a href="#three!" class="carousel-item"><img src="img/bgdatacenter.jpg"></a>
       </div>
-      <div class="carousel-item" href="#!">
-        <h2>MARGO es:</h2>
-        <p class="white-text">Contab</p>
-      </div>
-      <div class="carousel-item amber white-text" href="#two!">
-        <h2>Second Panel</h2>
-        <p class="white-text">This is your second panel</p>
-      </div>
-      <div class="carousel-item green white-text" href="#three!">
-        <h2>Third Panel</h2>
-        <p class="white-text">Diseño de Data Center y sitios de MIssion Critical</p>
-      </div>
-    </div>
+    </div>  
+
   </main>
 
   <footer class="page-footer red darken-1">
@@ -115,6 +106,8 @@
 
   <!-- JS propios -->
   <script src="js/app.js"></script>
+
+  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 
 </html>
