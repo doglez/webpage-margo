@@ -3,11 +3,14 @@ $( document ).ready(function(){
 	$(".button-collapse").sideNav();
 	
 	/*JQuery para activar el carrusel*/
-	$('.carousel.carousel-slider').carousel({fullWidth:true}).css("height", $(window).height());
+	$('.carousel.carousel-slider').carousel({
+		fullWidth:true,
+		indicators:true
+	}).css("height", $(window).height());
 })    
 setInterval(function(){
   $('.carousel.carousel-slider').carousel('next');
-}, 5000);
+}, 3000);
 
 //SCROLLSPY
 $(document).ready(function(){

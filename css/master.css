@@ -25,3 +25,29 @@
   height: 100%;
   width: 100%;
 }
+.slogan{
+  color: #464646;
+}
+.bgfinanzas{
+  background-image: url(../img/bgfinanzas.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+}
+.bgdevelopment{
+  background-image: url(../img/bgdevelopment.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+}
+.bgdatacenter{
+  background-image: url(../img/bgdatacenter.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+}
+@media only screen and (max-width: 600px) {
+  .carousel{
+    height: 400px !important;
+  }
+}
