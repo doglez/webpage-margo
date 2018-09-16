@@ -53,7 +53,28 @@
 .nostros{
   background-image: url(../img/equipo-unido.jpg);
   background-position: center;
-  height: 650px;
+  height: 750px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.nosotros-texto{
+  color: white;
+  font-family: 'Fugaz One', cursive;
+  background: rgba(1, 22, 39, 0.3);
+}
+.nostros i{
+  font-size: 36px !important;
+}
+.intro-servicios{
+  margin-top: 50px;  
+}
+.intro-servicios i{
+ font-size: 106px !important;
+ color: #e53935;
+}
+.intro-servicios h4, p{
+  color: #3F100F;
+}
+.intro-servicios a{
+  text-decoration: none !important;
 }
