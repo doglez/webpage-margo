@@ -77,3 +77,12 @@
 .intro-servicios h4, p{
   color: #3F100F;;
 }
+.formulario{
+  background-image: url(../img/large_way.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-attachment: fixed;
+}

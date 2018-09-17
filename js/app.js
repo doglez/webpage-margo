@@ -7,6 +7,9 @@ $( document ).ready(function(){
 		fullWidth:true,
 		indicators:true
 	}).css("height", $(window).height());
+
+	/*JQuery para activar seleccion */
+	$('select').material_select()
 })    
 setInterval(function(){
   $('.carousel.carousel-slider').carousel('next');
