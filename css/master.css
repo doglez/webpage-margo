@@ -53,9 +53,11 @@
 .nostros{
   background-image: url(../img/equipo-unido.jpg);
   background-position: center;
-  height: 750px;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-attachment: fixed;
 }
 .nosotros-texto{
   color: white;
@@ -73,8 +75,5 @@
  color: #e53935;
 }
 .intro-servicios h4, p{
-  color: #3F100F;
-}
-.intro-servicios a{
-  text-decoration: none !important;
+  color: #3F100F;;
 }

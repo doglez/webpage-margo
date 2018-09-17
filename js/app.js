@@ -7,9 +7,6 @@ $( document ).ready(function(){
 		fullWidth:true,
 		indicators:true
 	}).css("height", $(window).height());
-
-	/*JQuery Parallax */
-	$('.parallax').parallax();
 })    
 setInterval(function(){
   $('.carousel.carousel-slider').carousel('next');
