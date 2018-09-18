@@ -89,3 +89,29 @@
 .formulario-cardcolor{
   background: rgba(120, 144, 156, .7)
 }
+.validate{
+  color: white;
+}
+.input-field input:focus {
+  border-bottom: 1px solid white !important;
+  box-shadow: 0 1px 0 0 white !important;
+}
+.input-field textarea:focus {
+  border-bottom: 1px solid white !important;
+  box-shadow: 0 1px 0 0 white !important;
+}
+.input-field input {
+  border-bottom: 1px solid #bdbdbd !important;
+  box-shadow: 0 1px 0 0 #bdbdbd !important;
+}
+.input-field textarea {
+  border-bottom: 1px solid #bdbdbd !important;
+  box-shadow: 0 1px 0 0 #bdbdbd !important;
+}
+.contacto2 a{
+  text-decoration: none;
+  color: white !important;
+}
+.contacto2 a:hover{
+  color: #ffab40 !important;
+}
