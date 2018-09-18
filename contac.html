@@ -7,9 +7,15 @@
   <meta name="author" content="MARGO">
   <meta name="keywords" content="html, css, xml, javascript">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Importar logo Favicon para pestaña -->
+  <link rel="icon" type="image/png" href="img/favicomatic/favicon-16x16.png" sizes="16x16" />
 
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Import Font Awesome Brand Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
@@ -57,20 +63,37 @@
   <main>
     <section id="formulario" class="formulario">
       <div class="row">
-        <div class="col m2 hide-on-small-and"></div>
-        <div class="col s12 m8">
-          <div class="card blue-grey darken-1">
-            <div class="card-content white-text">
-              <span class="card-title center">Contactanos</span>
-              <div class="col s12">
-                <input id="last_name" type="text" class="validate">
-                <label for="last_name">Last Name</label>
-              </div>                 
+        <div class="col m1 hide-on-small-and-down"></div>
+        <div class="col s12 m10">
+          <div class="card formulario-cardcolor">
+            <div class="card-content white-text center">
+              <span class="card-title"><strong>Contactanos</strong></span>
+              <p>Puedes contactarte con nosotros por diversos medios, estaremos complacidos de atenderte:</p>
+            </div>
+            <div class="card-action row">
+              <form class="col s12 m6" action="sender.php">
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="fname" name="fname" type="text" class="validate">
+                    <label for="fname">Nombre Completo</label>
+                  </div>
+                  <div class="input-field col s12">
+                    <input id="email" name="email" type="email" class="validate">
+                    <label for="email">Correo electrónico</label>
+                  </div>
+                  <div class="input-field col s12">
+                    <input id="subj" name="subj" type="text" class="validate">
+                    <label for="fname">Asunto</label>
+                  </div>
+                </div>
+              </form>
+              <div class="s12 m5">
+                
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      
+      </div>      
     </section>
     
     <section id="socialmedia">
@@ -97,9 +120,9 @@
         <div class="col l3 offset-l1 s12">
           <h5 class="white-text">Redes Sociales</h5>
           <ul>
-            <li><a target="_blank" class="grey-text text-lighten-3" href="https://www.facebook.com/MARGOSdeRL/">Facebook</a></li>
-            <li><a target="_blank" class="grey-text text-lighten-3" href="https://www.linkedin.com/company/margohn/">Linkedin</a></li>
-            <li><a target="_blank" class="grey-text text-lighten-3" href="https://twitter.com/MARGOSdeRL">Twitter</a></li>
+            <li><a target="_blank" class="grey-text text-lighten-3" href="https://www.facebook.com/MARGOSdeRL/"><i class="fa fa-facebook-official" style="font-size:16px"></i> Facebook</a></li>
+            <li><a target="_blank" class="grey-text text-lighten-3" href="https://www.linkedin.com/company/margohn/"><i class="fa fa-linkedin-square" style="font-size:16px"></i> Linkedin</a></li>
+            <li><a target="_blank" class="grey-text text-lighten-3" href="https://twitter.com/MARGOSdeRL"><i class="fa fa-twitter-square" style="font-size:16px"></i> Twitter</a></li>
           </ul>
         </div>
       </div>

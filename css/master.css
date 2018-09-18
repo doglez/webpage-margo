@@ -86,3 +86,6 @@
   padding-bottom: 50px;
   background-attachment: fixed;
 }
+.formulario-cardcolor{
+  background: rgba(120, 144, 156, .7)
+}
