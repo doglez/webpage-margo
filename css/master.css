@@ -111,7 +111,15 @@
 .contacto2 a{
   text-decoration: none;
   color: white !important;
+  text-transform: lowercase !important;
 }
 .contacto2 a:hover{
   color: #ffab40 !important;
+}
+.socialmedia{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.fb-page{ 
+    width: 100% !important; 
 }

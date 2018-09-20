@@ -8,7 +8,7 @@
  */
 
 $to = 'info@margo.hn';
-$siteName = "www.margo.hn";
+$siteName = "https://www.margo.hn";
 
 /*
  *************************************************************
