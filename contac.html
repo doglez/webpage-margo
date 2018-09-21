@@ -61,6 +61,15 @@
   </header>
 
   <main>
+    <!-- SDK para JavaScript Fanpage de MARGO -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <section id="formulario" class="formulario">
       <div class="container">
         <div class="row">
@@ -128,11 +137,14 @@
     <section id="socialmedia" class="socialmedia">
       <div class="container">
         <div class="row">
-          <div class="col s12 m6 twitter-fanpage">
-            
+          <div class="col s12 m5 twitter-fanpage">
+            <a class="twitter-timeline" data-lang="es" data-theme="light" href="https://twitter.com/MARGOSdeRL?ref_src=twsrc%5Etfw">Tweets by MARGOSdeRL</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
+          <div class="col m1 hide-on-small-and-down"></div>
+          <div class="col s12 hide-on-med-and-up divider divisor-socialmedia"></div>
           <div class="col s12 m6">
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMARGOSdeRL&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" class="fb-page"></iframe>
+            <!-- Fanpage de MARGO, solo se muestra ya cuando esta en produccion -->
+            <div class="fb-page" data-href="https://www.facebook.com/MARGOSdeRL/" data-tabs="timeline, events" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/MARGOSdeRL/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/MARGOSdeRL/">MARGO S de R L</a></blockquote></div>
           </div>
         </div>
       </div>      

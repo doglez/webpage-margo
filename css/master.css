@@ -117,9 +117,13 @@
   color: #ffab40 !important;
 }
 .socialmedia{
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding-left: 15px !important;
 }
 .fb-page{ 
     width: 100% !important; 
+}
+.divisor-socialmedia{
+  padding-bottom: 25px !important;
 }
