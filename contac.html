@@ -18,10 +18,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
   <!-- CSS propios -->
   <link rel="stylesheet" href="css/master.css">
+
+  <!-- CSS fonts google -->
+  <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Shrikhand" rel="stylesheet">
 
 </head>
 
@@ -137,12 +140,19 @@
     <section id="socialmedia" class="socialmedia">
       <div class="container">
         <div class="row">
+          <div class="col s12 center slogan">
+            <h3>Nuestros Muros en Redes Sociales</h3>
+          </div>
+        </div>
+        <div class="row">
           <div class="col s12 m5 twitter-fanpage">
+            <h5 class="slogan">Fanpage Twitter</h5>
             <a class="twitter-timeline" data-lang="es" data-theme="light" href="https://twitter.com/MARGOSdeRL?ref_src=twsrc%5Etfw">Tweets by MARGOSdeRL</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
           <div class="col m1 hide-on-small-and-down"></div>
           <div class="col s12 hide-on-med-and-up divider divisor-socialmedia"></div>
           <div class="col s12 m6">
+            <h5 class="slogan">Fanpage Facebook</h5>
             <!-- Fanpage de MARGO, solo se muestra ya cuando esta en produccion -->
             <div class="fb-page" data-href="https://www.facebook.com/MARGOSdeRL/" data-tabs="timeline, events" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/MARGOSdeRL/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/MARGOSdeRL/">MARGO S de R L</a></blockquote></div>
           </div>
@@ -200,22 +210,19 @@
     attribution=setup_tool
     page_id="2223857571204133"
     theme_color="#e57373"
-    logged_in_greeting="Hola! ¿Cómo puedo ayudarle?"
-    logged_out_greeting="Hola! ¿Cómo puedo ayudarle?">
+    logged_in_greeting="Hola! ¿Cómo te puedo ayudar?"
+    logged_out_greeting="Hola! ¿Cómo te puedo ayudar?">
   </div>
   
 
   <!--Import jQuery before materialize.js-->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
 
   <!-- MaterializeCompiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
 
   <!-- JS propios -->
-  <script src="js/app.js"></script>
-  
-   <!-- Scrip fanpage facebook -->
-  
+  <script src="js/app.js"></script>  
 </body>
 
 </html>
