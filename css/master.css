@@ -127,3 +127,16 @@
 .divisor-socialmedia{
   padding-bottom: 25px !important;
 }
+.img-contoper{
+  background-image: url(../img/contoper.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.img-contoper h4{
+  color: #bf360c;
+  font-family: 'Fugaz One', cursive; 
+}
