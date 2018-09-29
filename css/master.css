@@ -68,7 +68,7 @@
   font-size: 36px !important;
 }
 .intro-servicios{
-  margin-top: 50px;  
+  margin-top: 50px;
 }
 .intro-servicios i{
  font-size: 106px !important;
@@ -121,22 +121,32 @@
   padding-bottom: 50px !important;
   padding-left: 15px !important;
 }
-.fb-page{ 
-    width: 100% !important; 
+.fb-page{
+    width: 100% !important;
 }
 .divisor-socialmedia{
   padding-bottom: 25px !important;
 }
+html, body{
+  height: 100%;
+}
 .img-contoper{
   background-image: url(../img/contoper.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+  padding-top: 250px;
+  padding-bottom: 250px;
 }
 .img-contoper h4{
   color: #bf360c;
-  font-family: 'Fugaz One', cursive; 
+  font-family: 'Fugaz One', cursive;
+}
+.desc-servicios{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.desc-servicios li div{
+  background-color: #455A64;
 }
