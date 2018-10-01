@@ -147,6 +147,12 @@ html, body{
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.desc-servicios li div{
-  background-color: #455A64;
+.servicios1 li div{
+  background-color: #e53935;
+}
+.servicios2 li div{
+  background-color: #e65100;
+}
+.card-content{
+  text-align: justify;
 }
