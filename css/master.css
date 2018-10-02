@@ -153,6 +153,12 @@ html, body{
 .servicios2 li div{
   background-color: #e65100;
 }
+.servicios3 li div{
+  background-color: #8d6e63;
+}
+.servicios4 li div{
+  background-color: #546e7a;
+}
 .card-content{
   text-align: justify;
 }

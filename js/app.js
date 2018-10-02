@@ -7,15 +7,8 @@ $( document ).ready(function(){
 		fullWidth:true,
 		indicators:true
 	}).css("height", $(window).height());
-	
+
 })
 setInterval(function(){
   $('.carousel.carousel-slider').carousel('next');
 }, 4000);
-
-//SCROLLSPY
-$(document).ready(function(){
-    $('.scrollspy').scrollSpy();
-});
-
-$(document).on("scr")
