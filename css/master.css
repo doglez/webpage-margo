@@ -74,7 +74,7 @@
  font-size: 106px !important;
  color: #e53935;
 }
-.intro-servicios h4, p{
+.intro-servicios h5, p{
   color: #3F100F;;
 }
 .formulario{
@@ -139,12 +139,39 @@ html, body{
   padding-top: 250px;
   padding-bottom: 250px;
 }
+.webdesign{
+  background-image: url(../img/webdesign.jpg);
+  background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+.webdesign h4{
+  color: white;
+  font-family: 'Audiowide', cursive;
+}
+.diseño-web h1, h3{
+  color: #b71c1c;
+  font-family: 'Audiowide', cursive;
+}
+.diseño-web{
+  padding-bottom: 25px;
+}
+.diseñowebcontent{
+  color: #b71c1c;
+  font-family: 'Audiowide', cursive;
+  text-align: justify;
+}
 .img-contoper h4{
-  color: #bf360c;
+  color: white;
   font-family: 'Fugaz One', cursive;
 }
-.desc-servicios{
+.desc-servicios1{
   padding-top: 50px;
+}
+.desc-servicios2{
   padding-bottom: 50px;
 }
 .servicios1 li div{
@@ -161,4 +188,14 @@ html, body{
 }
 .card-content{
   text-align: justify;
+}
+@media (max-width: 600px) {
+  .diseño-web h1{
+    font-family: 'Audiowide', cursive;
+    font-size:32px;
+  }
+  .diseño-web h3{
+    font-family: 'Audiowide', cursive;
+    font-size:29px;
+  }
 }

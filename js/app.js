@@ -8,7 +8,9 @@ $( document ).ready(function(){
 		indicators:true
 	}).css("height", $(window).height());
 
+	$('.carousel').carousel();
 })
 setInterval(function(){
   $('.carousel.carousel-slider').carousel('next');
+	$('.carousel').carousel('next');
 }, 4000);
