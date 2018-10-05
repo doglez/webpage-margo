@@ -148,6 +148,37 @@ html, body{
   padding-top: 250px;
   padding-bottom: 250px;
 }
+.dcdesign{
+  background-image: url(../img/dcdesign.jpeg);
+  background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+  padding-bottom: 1px;
+}
+.diseño-dc2{
+  background-image: url(../img/dcdesign2.jpeg);
+  background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+  padding-bottom: 1px;
+}
+.dcdesign h4{
+  color: white;
+  margin-top: 200px;
+}
+.diseño-dc{
+  text-align: justify;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.diseño-dc2{
+  color: white;
+  text-align: justify;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .webdesign h4{
   color: white;
   font-family: 'Audiowide', cursive;
@@ -197,5 +228,13 @@ html, body{
   .diseño-web h3{
     font-family: 'Audiowide', cursive;
     font-size:29px;
+  }
+  .diseño-dc h1{
+    font-family: 'Audiowide', cursive;
+    font-size:32px;
+  }
+  .diseño-dc2 h1{
+    font-family: 'Audiowide', cursive;
+    font-size:32px;
   }
 }

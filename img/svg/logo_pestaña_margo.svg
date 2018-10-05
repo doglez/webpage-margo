@@ -16,7 +16,7 @@
    id="svg8"
    inkscape:version="0.92.3 (d244b95, 2018-08-02)"
    sodipodi:docname="logo_pestaña_margo.svg"
-   inkscape:export-filename="/home/dgonzalez/GitHub/webpage-margo/img/logo grande (nombre).png"
+   inkscape:export-filename="/home/dgonzalez/GitHub/webpage-margo/img/logo_pestaña_margo.png"
    inkscape:export-xdpi="199.94447"
    inkscape:export-ydpi="199.94447">
   <defs
@@ -47,7 +47,7 @@
      inkscape:cx="86.121116"
      inkscape:cy="73.706615"
      inkscape:document-units="mm"
-     inkscape:current-layer="g3831"
+     inkscape:current-layer="layer1"
      showgrid="false"
      units="mm"
      showguides="false"
@@ -75,7 +75,9 @@
      transform="translate(0,-260)">
     <g
        id="g3831"
-       transform="translate(-12.828937,3.7854128)">
+       transform="translate(-12.828937,3.7854128)"
+       inkscape:export-xdpi="199.94447"
+       inkscape:export-ydpi="199.94447">
       <path
          id="path3839"
          style="fill:#b21018;stroke-width:0.26458332"
@@ -98,22 +100,6 @@
            style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.9026041px;font-family:Calibri;fill:#000000;stroke-width:0.26458332"
            dy="0"
            dx="0" /></tspan></text>
-    <text
-       id="text4146"
-       y="272.05597"
-       x="-12.449064"
-       style="font-style:normal;font-variant:normal;font-weight:700;font-size:14.20366764px;line-height:125%;font-family:'Tw Cen MT';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14795487"
-       xml:space="preserve"
-       transform="scale(0.96970552,1.0312409)"><tspan
-         id="tspan4144"
-         y="272.05597"
-         x="-12.449064"
-         sodipodi:role="line"
-         style="fill:#000000;stroke-width:0.14795487"><tspan
-           id="tspan4142"
-           style="font-style:normal;font-variant:normal;font-weight:700;font-size:14.20366764px;font-family:'Tw Cen MT';fill:#000000;stroke-width:0.14795487"
-           dy="0"
-           dx="0">MarGo</tspan></tspan></text>
     <text
        id="text4152"
        y="270.20197"
