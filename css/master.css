@@ -220,6 +220,9 @@ html, body{
 .card-content{
   text-align: justify;
 }
+.dccarousel{
+  height: 275px !important;
+}
 @media (max-width: 600px) {
   .diseño-web h1{
     font-family: 'Audiowide', cursive;
