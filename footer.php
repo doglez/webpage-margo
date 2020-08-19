@@ -33,4 +33,4 @@
 <script type="text/javascript" src="js/materialize.min.js"></script>
 
 <!--Import own JS-->
-<script type="text/javascript" src="js/app.js"></script>
+<script src="js/app.js"></script>
