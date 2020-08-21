@@ -1,3 +1,13 @@
+/*Generales*/
+.animateOpacity{
+  opacity: 0;
+  transition: all 0.5s;
+}
+.animate_materlialize{
+  transform: translateX(0px);
+  opacity: 0;
+}
+
 /* Navbar */
 .logo_white{
   padding-top: 0.4em;
@@ -61,15 +71,15 @@
     font-weight: bold;
   }
   i, h4, h5{
-    color: #e53935;
+    color: #e57373;
   }
-  .section_achievements_hover{
+  .section_achievements_text{
     padding: 16px 0 !important;
   }
-  .section_achievements_hover:hover{
-    i{
+  .section_achievements_text:hover{
+    i, h4, h5{
       color: #c62828;
-      transition: 0.4s;
+      transition: 0.5s;
     }
   }
 }
@@ -119,6 +129,13 @@
       height: 300px;
       // margin-top: -15px;
       padding: 0px 32px !important;
+    }
+  }
+}
+@media only screen and (max-width: 992px){
+  .section_achievements{
+    i, h4, h5{
+      color: #c62828;
     }
   }
 }
