@@ -1,10 +1,10 @@
 $( document ).ready(function(){
   $(".button-collapse").sideNav();
-
-  /*JQuery para activar el carrusel*/
 	$('.carousel.carousel-slider').carousel({
 		fullWidth:true,
 	}).css("height", $(window).height());
+
+   $('.scrollspy').scrollSpy();
 })
 
 setInterval(function(){

@@ -10,14 +10,14 @@
     <main>
       <section class="section_carousel">
         <div class="carousel carousel-slider center">
-        <div class="carousel-item equipo-unido white-text" href="#one!">
-          <h1>contadores de confianza.</h1>
+        <div class="carousel-item equipo-unido" href="#one!">
+          <h1>Contadores de confianza.</h1>
         </div>
-        <div class="carousel-item books white-text" href="#two!">
-          <h1>libros precisos garantizados.</h1>
+        <div class="carousel-item books" href="#two!">
+          <h1>Libros precisos y garantizados.</h1>
         </div>
-        <div class="carousel-item contoper white-text" href="#three!">
-          <h1>descubre los beneficios de trabajar con nosotros.</h1>
+        <div class="carousel-item contoper" href="#three!">
+          <h1>Descubre los beneficios de trabajar con nosotros.</h1>
         </div>
       </div>
       </section>

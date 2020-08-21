@@ -7,7 +7,7 @@
         <li><a href="tributarios.php">Tributarios</a></li>
       </ul>
       <div class="nav-wrapper container">
-        <a href="#!" class="brand-logo"><img class="logo_white" src="img/logo_white.png" alt="MARGO"> </a>
+        <a href="index.php" class="brand-logo"><img class="logo_white" src="img/logo_white.png" alt="MARGO"> </a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="index.php">Inicio</a></li>
