@@ -15,14 +15,15 @@ setInterval(function(){
 
 // JavaScript Animated
 var animate = document.querySelectorAll('.animateOpacity');
-function mostrarScroll() {
+function showScroll() {
   var scrollTop = document.documentElement.scrollTop;
-  for (var i = 0; i < animateOpacity.length; i++) {
-    var alturaAnimate = animateOpacity[i].offsetTop;
-    if (alturaAnimate < scrollTop) {
+  for (var i = 0; i < animate.length; i++) {
+    var alturaAnimate = animate[i].offsetTop;
+    if (alturaAnimate -400 < scrollTop) {
       animate[i].style.opacity = 1;
+      animate[i].classList.add('showAbove')
     }
   }
 }
 
-window.addEventListener('scroll', mostrarScroll);
+window.addEventListener('scroll', showScroll);

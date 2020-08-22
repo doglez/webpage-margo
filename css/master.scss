@@ -1,7 +1,20 @@
-/*Generales*/
-.animateOpacity{
+/*Generals*/
+/*Animations*/
+.animateAbove{
   opacity: 0;
   transition: all 0.5s;
+}
+.showAbove{
+  animation: showAbove 1s;
+}
+.showBelow{
+  animation: showBelow 1s;
+}
+.showRight{
+  animation: showRight 1s;
+}
+.showLeft{
+  animation: showLeft 1s;
 }
 .animate_materlialize{
   transform: translateX(0px);
@@ -137,5 +150,39 @@
     i, h4, h5{
       color: #c62828;
     }
+  }
+}
+
+/*Key Frames para transiciones animaciones*/
+@keyframes showAbove {
+  0%{
+    transform: translateY(60px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+@keyframes showBelow {
+  0%{
+    transform: translateY(-60);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+@keyframes showRight {
+  0%{
+    transform: translateX(60px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+@keyframes showLeft {
+  0%{
+    transform: translateX(-60px);
+  }
+  100%{
+    transform: translateX(0);
   }
 }
