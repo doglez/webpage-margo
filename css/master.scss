@@ -1,21 +1,5 @@
 /*Generals*/
 /*Animations*/
-.animateAbove{
-  opacity: 0;
-  transition: all 0.5s;
-}
-.showAbove{
-  animation: showAbove 1s;
-}
-.showBelow{
-  animation: showBelow 1s;
-}
-.showRight{
-  animation: showRight 1s;
-}
-.showLeft{
-  animation: showLeft 1s;
-}
 .animate_materlialize{
   transform: translateX(0px);
   opacity: 0;
@@ -153,34 +137,63 @@
   }
 }
 
-/*Key Frames para transiciones animaciones*/
+
+/*Animations Scroll*/
+.animateAbove{
+  opacity: 0;
+  transition: all 0.5s;
+}
+.showAbove{
+  animation: showAbove 1s;
+}
 @keyframes showAbove {
   0%{
-    transform: translateY(60px);
+    transform: translateY(100px);
   }
   100%{
     transform: translateY(0);
   }
+}
+.animateBelow{
+  opacity: 0;
+  transition: all 0.5s;
+}
+.showBelow{
+  animation: showBelow 1s;
 }
 @keyframes showBelow {
   0%{
-    transform: translateY(-60);
+    transform: translateY(-100px);
   }
   100%{
     transform: translateY(0);
   }
 }
+.animateRight{
+  opacity: 0;
+  transition: all 0.5s;
+}
+.showRight{
+  animation: showRight 1s;
+}
 @keyframes showRight {
   0%{
-    transform: translateX(60px);
+    transform: translateX(100px);
   }
   100%{
     transform: translateX(0);
   }
 }
+.animateLeft{
+  opacity: 0;
+  transition: all 0.5s;
+}
+.showLeft{
+  animation: showLeft 1s;
+}
 @keyframes showLeft {
   0%{
-    transform: translateX(-60px);
+    transform: translateX(-100px);
   }
   100%{
     transform: translateX(0);

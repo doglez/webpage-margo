@@ -41,14 +41,14 @@
         </div>
       </section>
       <section class="section_comments white-text">
-        <div class="row container animateOpacity">
+        <div class="row container animateBelow">
           <div class="card z-depth-4 col m6 s12 laptop_upload_sar"></div>
           <div class="card z-depth-4 col m6 s12 section_comments_text blue-grey darken-1">
             <h5 class="center">No te preocupes por tu declaración de impuestos.</h5>
             <p class="justify">Nosotros nos aseguramos de que todos los registros cumplan con la ley y estén a prueba de auditorías y nos encargamos de subir toda la información pertinente el día de la declaración tributaria. Sin problemas para ti y así podrás tener  más tiempo para concentrarte en tu negocio.</p>
           </div>
         </div>
-        <div class="row container animateOpacity">
+        <div class="row container animateAbove">
           <div class="card z-depth-4 col s12 hide-on-med-and-up money_plants"></div>
           <div class="card z-depth-4 col m6 s12 section_comments_text blue-grey darken-1">
             <h5 class="center">Beneficios de trabajar con nosotros.</h5>
