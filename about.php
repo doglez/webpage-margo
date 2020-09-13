@@ -26,7 +26,7 @@
           <div class="row container">
             <div class="col s12">
               <h3>Nuestras áreas clave de operacion</h3>
-              <ul>
+              <ul id='list-effect'>
                 <li>Soluciones de outsourcing contable para pequeñas y medianas empresas</li>
                 <li>Servicio contabiles, tareas rutinarias como ser: facturación, conciliaciones, provisiones, amortizaciones, pasivos, etc.</li>
                 <li>Asistencia con la preparación de estados financieros</li>

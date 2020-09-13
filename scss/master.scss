@@ -147,15 +147,20 @@
     text-align: center;
     color: white;
     .col{
-
       ul{
-        font-size: 1.5em;
+        font-size: 1rem;
         li{
           padding: 5px 0;
         }
       }
+      #list-effect li{
+        transform: translateX(0px);
+        opacity: 0;
+        transition: all 0.3s;
+      }
     }
-   }
+  }
+  
 }
 
 /*Media Query*/
@@ -184,7 +189,19 @@
     }
   }
 }
-
+@media only screen and (min-width: 992px){
+  .section_information{
+    height: 600px;
+    .parallax {
+      height: 600px;
+      .col{
+        ul{
+          font-size: 1.5rem;          
+        }
+      }
+     }
+  }
+}
 
 /*Animations Scroll*/
 .animateAbove{
@@ -247,3 +264,4 @@
     transform: translateX(0);
   }
 }
+
