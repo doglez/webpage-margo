@@ -41,6 +41,27 @@
           </div>
         </div>
       </section>
+      <section class="section_vision_mision grey lighten-2">
+        <div class="row container">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/vision-mision.jpg">
+            </div>
+            <div class="card-tabs">
+              <ul class="tabs tabs-fixed-width">
+                <li class="tab"><a href="#mision">Misión</a></li>
+                <li class="tab"><a class="active" href="#vision">Visión</a></li>
+                <li class="tab"><a href="#filosofia">Filosofía</a></li>
+              </ul>
+            </div>
+            <div class="card-content grey lighten-4">
+              <div id="mision">Proporcionar un servicio de calidad, confiable y competitivo en materias Contables, Financieras, Tributaria y Administrativas, en el cual aplicamos nuestros valores en los clientes, ya que tendrán la certeza de que su información se maneja de manera confidencial brindando de esta manera la confianza y placer de trabajar con nosotros, contando para ello con el apoyo tecnológico como herramienta para obtener importantes ventajas competitivas y liderazgo. </div>
+              <div id="vision">Ser una empresa líder en proveer servicios contables a las pequeñas y medianas empresas, promoviendo el incremento de sus clientes, apoyando su bienestar económico y financiero.</div>
+              <div id="filosofia">Nuestros valores nos respaldan para trabajar hacia nuestro objetivo de servir a la comunidad empresarial y resolver problemas importantes de nuestros clientes. La confianza que nuestros clientes, y nuestros principios de ética profesional, son fundamentales para todo lo que hacemos. Nuestros valores definen nuestro comportamiento. Nuestro propósito define nuestra existencia.</div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!--Import footer.php-->
