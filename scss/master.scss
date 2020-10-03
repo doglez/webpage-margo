@@ -161,14 +161,14 @@
 }
 
 .section_information {
-    height: 600px;
+    height: auto;
     background-image: url('../img/team_work.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     .parallax {
-        height: 600px;
+        height: auto;
         background-color: rgba(1, 44, 79, 0.8);
         text-align: center;
         color: white;
@@ -189,6 +189,7 @@
 }
 
 .section_vision_mision {
+    margin-top: -20px;
     padding: 10px 0;
 }
 
@@ -244,9 +245,9 @@
 
 @media only screen and (min-width: 992px) {
     .section_information {
-        height: 600px;
+        height: auto;
         .parallax {
-            height: 600px;
+            height: auto;
             .col {
                 ul {
                     font-size: 1.5rem;
