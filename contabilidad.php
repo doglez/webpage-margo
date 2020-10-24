@@ -22,12 +22,25 @@
           </div>
         </div>
       </section>
-      <section class="servicios_lista">
+      <section class="servicios_lista blue lighten-3">
         <div class="row">
-          <div class="col m6 s12">
-            
+          <div class="col m6 s12 animateLeft">
+            <div class="img_contable2"></div>            
           </div>
-          <div class="col m6 s12"></div>
+          <div class="col m6 s12 animateRight">
+            <h3>Servicios</h3>
+            <ul>
+              <li>Elaboración de catálogos contables y registro de operaciones</li>
+              <li>Preparación de informes financieros</li>
+              <li>Auditoria de Inventarios</li>
+              <li>Conciliaciones bancarias</li>
+              <li>Manejo y administración de planillas</li>
+              <li>Pago de planillas salariales y obligaciones sociales</li>
+              <li>Régimen de aportaciones privadas</li>
+              <li>Control, manejo y autorización de libros contables</li>
+              <li>Otras obligaciones formales de cumplimiento</li>
+            </ul>
+          </div>          
         </div>
       </section>
     </main>
