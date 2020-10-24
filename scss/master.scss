@@ -36,12 +36,6 @@
     padding-left: 45px;
 }
 
-.sidenav_sublinks {
-    line-height: 32px !important;
-    padding: 0 45px !important;
-    height: 35px !important;
-}
-
 
 /* Main Index*/
 
@@ -193,6 +187,7 @@
     padding: 10px 0;
 }
 
+// Pagina de servicios
 .section_service_parallax {
     .parallax-container {
         height: 600px;
@@ -201,13 +196,31 @@
 
 .section_service_message {
     text-align: center;
-    opacity: 0;
     .row {
-        height: 35em;
+        height: 650px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+}
+
+// .servicios_lista {
+//     min-height: 400px;
+//     padding: 20px;
+//     .img_contable2 {
+//         height: 310px;
+//         background: url("../img/accounting2.jpg") no-repeat center / cover;
+//     }
+// }
+// Formulario
+.formulario {
+    background-image: url(../img/large_way.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-attachment: fixed;
 }
 
 
@@ -219,6 +232,11 @@
             height: 300px;
             margin-top: -15px;
             padding: 0px 32px !important;
+        }
+    }
+    .servicios_lista {
+        .lista_servicios {
+            margin-top: -20px;
         }
     }
 }
