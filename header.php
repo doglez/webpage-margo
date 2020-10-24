@@ -8,9 +8,9 @@
           <li><a href="index.php">Inicio</a></li>
           <li><a href="about.php">Nosotros</a></li>
           <li><a href="contabilidad.php">Contabilidad</a></li>
-          <li><a href="administracion.php">Administracíon</a></li>
-          <li><a href="tributarios.php">Tributacíon</a></li>
-          <li><a href="#">Software Contable</a></li>
+          <li><a href="administracion.php">Administración</a></li>
+          <li><a href="tributarios.php">Tributación</a></li>
+          <!-- <li><a href="#">Software Contable</a></li> -->
           <li><a href="contacto.php">Contacto</a></li>
         </ul>
       </div>
@@ -22,9 +22,9 @@
     <li><a href="index.php">Inicio</a></li>
     <li><a href="about.php">Nosotros</a></li>
     <li><a href="contabilidad.php">Contabilidad</a></li>
-    <li><a href="administracion.php">Administracíon</a></li>
-    <li><a href="tributarios.php">Tributacíon</a></li>
-    <li><a href="#">Software Contable</a></li>
+    <li><a href="administracion.php">Administración</a></li>
+    <li><a href="tributarios.php">Tributación</a></li>
+    <!-- <li><a href="#">Software Contable</a></li> -->
     <li><a href="contacto.php">Contacto</a></li>
   </ul>
 

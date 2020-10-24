@@ -211,6 +211,14 @@
         height: 300px;
         background: url("../img/accounting2.jpg") no-repeat center / cover;
     }
+    .img_adminis2 {
+        height: 300px;
+        background: url("../img/admon2.jpg") no-repeat center / cover;
+    }
+    .img_tribut2 {
+        height: 300px;
+        background: url("../img/tribut2.jpg") no-repeat center / cover;
+    }
 }
 
 // Formulario
@@ -233,11 +241,6 @@
             height: 300px;
             margin-top: -15px;
             padding: 0px 32px !important;
-        }
-    }
-    .servicios_lista {
-        .lista_servicios {
-            margin-top: -20px;
         }
     }
 }
