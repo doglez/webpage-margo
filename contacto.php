@@ -48,8 +48,8 @@
                       <div class="col s12 m4">
                         <div class="row">
                           <ul>
-                            <li><p class="white-text contacto2"><strong> <i class="material-icons tiny">phone</i> Telefóno: </strong><a href="tel: +504 22815651">(504) 2281-5651</a></p></li>
-                            <li><p class="white-text contacto2"><strong> <i class="material-icons tiny">phone_android</i> Celular: </strong><a href="tel: +504 32522185">(504) 3252-2185</a></p></li>
+                            <!-- <li><p class="white-text contacto2"><strong> <i class="material-icons tiny">phone</i> Telefóno: </strong><a href="tel: +504 22815651">(504) 2281-5651</a></p></li>
+                            <li><p class="white-text contacto2"><strong> <i class="material-icons tiny">phone_android</i> Celular: </strong><a href="tel: +504 32522185">(504) 3252-2185</a></p></li> -->
                             <li><p class="white-text contacto2"><strong> <i class="material-icons tiny">email</i> Correo: </strong><a href="mailto:info@margo.hn?subject=Solicitud de información">info@margo.hn</a></p></li>
                             <li><p class="white-text contacto2">
                               <a href="https://www.linkedin.com/company/margohn/"><i class="fa fa-linkedin-square" style="font-size:26px"></i></a>
