@@ -20,31 +20,12 @@
                 <div class="card-action">
                   <div class="row">
                     <div class="card-action row">
-                      <form class="col s12 m6" role="form" method="post" action="sender.php">
-                        <div class="row">
-                          <div class="input-field col s12">
-                            <input id="fname" name="fname" type="text" class="validate" required= "required">
-                            <label class=" white-text">Nombre Completo</label>
-                          </div>
-                          <div class="input-field col s12">
-                            <input id="email" name="email" type="email" class="validate" required= "required">
-                            <label data-error="wrong" data-success="right" class=" white-text">Correo electrónico</label>
-                          </div>
-                          <div class="input-field col s12">
-                            <input id="subj" name="subj" type="text" class="validate" required= "required">
-                            <label class=" white-text">Asunto</label>
-                          </div>
-                          <div class="input-field col s12">
-                            <textarea id="mssg" name="mssg" class="materialize-textarea validate" data-length="120" required= "required"></textarea>
-                            <label class=" white-text">Mensaje</label>
-                          </div>
-                          <button class="btn waves-effect waves-light red lighten-1" type="submit" id="send">Enviar
-                            <i class="material-icons right">send</i>
-                          </button>
-                        </div>
-                      </form>
-                      <div id="result-message" role="alert"></div>
-                      <div class="col m1 hide-on-small-and-down"></div>
+                      <div class="col hide-on-small-only m8">
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfaB8dKvHb0jzBDvxmmtLCAn1EhRSBKeAefp-dIJ6J3XqSQHA/viewform?embedded=true" width="500" height="750" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+                      </div>
+                      <div class="col s12 hide-on-med-and-up">
+                        <iframe class="formulario_gsuite" src="https://docs.google.com/forms/d/e/1FAIpQLSfaB8dKvHb0jzBDvxmmtLCAn1EhRSBKeAefp-dIJ6J3XqSQHA/viewform?embedded=true" width="350" height="770" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+                      </div>
                       <div class="col s12 m4">
                         <div class="row">
                           <ul>

@@ -9,4 +9,6 @@
 Version |
 ------- |
 desarrollo |
+2.0 |
 1.0 |
+
