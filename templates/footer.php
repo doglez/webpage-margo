@@ -17,7 +17,7 @@
     <div class="footer-copyright">
       <div class="row container">
         <div class="col l9 m12 s12">
-          <a class="grey-text text-lighten-4" href="https://www.mcscor.com">© 2020 Copyright MCS</a>
+          <a class="grey-text text-lighten-4" href="https://doglez.com/" target="blank">© 2020 Copyright Doglez</a>
         </div>
         <div class="col l3 m12 s12">
           <a class="grey-text text-lighten-4" href="privacy_policy.php">Política de Privacidad</a>
