@@ -26,7 +26,7 @@ $message = $_POST['mssg'];
 if (isset($name) && isset($mail) && isset($message)) {
 
 
-	$mailSub = '[Contact] [' . $siteName . '] '.$subject;
+	$mailSub = '[Contact] [' . $siteName . '] ' . $subject;
 
 	$body = 'Sender Name: ' . $name . "\n\n";
 	$body .= 'Sender Mail: ' . $mail . "\n\n";
@@ -38,8 +38,7 @@ if (isset($name) && isset($mail) && isset($message)) {
 	$header .= 'X-Mailer: PHP/' . phpversion();
 
 	echo mail($to, $mailSub, $body, $header);
-}else{
+} else {
 	echo '0';
 }
-header("Location:index.html");
-?>
+header("Location:index?page=home");
