@@ -38,11 +38,11 @@
           <ul class="right hide-on-med-and-down">
             <li><a href="index?page=home">Inicio</a></li>
             <li><a href="index?page=about">Nosotros</a></li>
-            <li><a href="contabilidad.php">Contabilidad</a></li>
-            <li><a href="administracion.php">Administración</a></li>
-            <li><a href="tributarios.php">Tributación</a></li>
+            <li><a href="index?page=contabilidad">Contabilidad</a></li>
+            <li><a href="index?page=administracion">Administración</a></li>
+            <li><a href="index?page=tributarios">Tributación</a></li>
             <!-- <li><a href="#">Software Contable</a></li> -->
-            <li><a href="contacto.php">Contacto</a></li>
+            <li><a href="index?page=contacto">Contacto</a></li>
           </ul>
         </div>
       </nav>
@@ -50,13 +50,13 @@
 
     <ul class="side-nav" id="mobile-demo">
       <li><img src="assets/img/logo_normal.png" alt="MARGO" class="logo_sidenav"></li>
-      <li><a href="index.php">Inicio</a></li>
-      <li><a href="about.php">Nosotros</a></li>
-      <li><a href="contabilidad.php">Contabilidad</a></li>
-      <li><a href="administracion.php">Administración</a></li>
-      <li><a href="tributarios.php">Tributación</a></li>
+      <li><a href="index?page=home">Inicio</a></li>
+      <li><a href="index?page=about">Nosotros</a></li>
+      <li><a href="index?page=contabilidad">Contabilidad</a></li>
+      <li><a href="index?page=administracion">Administración</a></li>
+      <li><a href="index?page=tributarios">Tributación</a></li>
       <!-- <li><a href="#">Software Contable</a></li> -->
-      <li><a href="contacto.php">Contacto</a></li>
+      <li><a href="index?page=contacto">Contacto</a></li>
     </ul>
 
   </header>
