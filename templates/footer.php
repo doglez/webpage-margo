@@ -31,10 +31,10 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
   <!--JavaScript Materialize optimized loading-->
-  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="assets/js/materialize.min.js"></script>
 
   <!--Import own JS-->
-  <script src="js/app.min.js"></script>
+  <script src="assets/js/app.min.js"></script>
 
   </body>
 

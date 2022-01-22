@@ -8,20 +8,20 @@
   <title>MARGO Contabilidad, Administración, Impuestos, Tegucigalpa, Honduras</title>
 
   <!--Import own css-->
-  <link rel="stylesheet" href="css/master.min.css">
+  <link rel="stylesheet" href="assets/css/master.min.css">
 
   <!-- Import Font Awesome Brand Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!--Import logo Favicon-->
-  <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="assets/img/favicon-16x16.png" sizes="16x16" />
 
   <!--Import Materialize Plugins-->
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
 
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -33,7 +33,7 @@
     <div class="navbar-fixed">
       <nav class="red darken-1">
         <div class="nav-wrapper container">
-          <a href="index.php" class="brand-logo"><img class="logo_white" src="img/logo_white.png" alt="MARGO"> </a>
+          <a href="index.php" class="brand-logo"><img class="logo_white" src="assets/img/logo_white.png" alt="MARGO"> </a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="index.php">Inicio</a></li>
@@ -49,7 +49,7 @@
     </div>
 
     <ul class="side-nav" id="mobile-demo">
-      <li><img src="img/logo_normal.png" alt="MARGO" class="logo_sidenav"></li>
+      <li><img src="assets/img/logo_normal.png" alt="MARGO" class="logo_sidenav"></li>
       <li><a href="index.php">Inicio</a></li>
       <li><a href="about.php">Nosotros</a></li>
       <li><a href="contabilidad.php">Contabilidad</a></li>
