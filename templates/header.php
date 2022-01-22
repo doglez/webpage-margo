@@ -36,8 +36,8 @@
           <a href="index.php" class="brand-logo"><img class="logo_white" src="assets/img/logo_white.png" alt="MARGO"> </a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="index.php">Inicio</a></li>
-            <li><a href="about.php">Nosotros</a></li>
+            <li><a href="index?page=home">Inicio</a></li>
+            <li><a href="index?page=about">Nosotros</a></li>
             <li><a href="contabilidad.php">Contabilidad</a></li>
             <li><a href="administracion.php">Administración</a></li>
             <li><a href="tributarios.php">Tributación</a></li>
