@@ -20,7 +20,7 @@
           <a class="grey-text text-lighten-4" href="https://doglez.com/" target="blank">© 2020 Copyright Doglez</a>
         </div>
         <div class="col l3 m12 s12">
-          <a class="grey-text text-lighten-4" href="privacy_policy.php">Política de Privacidad</a>
+          <a class="grey-text text-lighten-4" href="index?page=privacy_policy">Política de Privacidad</a>
         </div>
       </div>
     </div>
